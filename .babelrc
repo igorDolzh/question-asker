@@ -1,0 +1,13 @@
+{
+  "presets": [["latest", {"modules": false}], "stage-2", "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-decorators-legacy",
+    "date-fns",
+    "ramda",
+    [
+      "babel-plugin-styled-components",
+      { "displayName": true, "fileName": true }
+    ]
+  ]
+}
