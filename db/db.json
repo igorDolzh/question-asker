@@ -1,0 +1,35 @@
+{
+  "questions" : [{
+    "id": "1",
+    "text": "What are the differences between null and undefined?",
+    "answers": {
+      "a": "JavaScript has two distinct values for nothing, null and undefined.",
+      "b": "No difference"
+    },
+    "correct": "a",
+    "categories": ["1"]
+  }],
+  "questionCategories": [{
+    "id":"1",
+    "name": "Vanilla Js"
+  }, {
+    "id":"2",
+    "name": "React"
+  }, {
+    "id": "3",
+    "name": "Redux"
+  }],
+  "games": [{
+    "id": "1",
+    "name": "basic knowledge JS",
+    "questions": ["1"]
+  }],
+  "results":[{
+    "id":"1",
+    "gameId": "1",
+    "userId": "0",
+    "list": {
+      "1": true
+    }
+  }]
+}
