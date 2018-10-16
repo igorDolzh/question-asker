@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:8080',
+    'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
   ],
   output: {
@@ -15,11 +15,10 @@ module.exports = {
   },
 
   devServer: {
-    proxy: [{
-      context: ['/api'],
-      target: 'https://localhost:8000/',
-      changeOrigin: true,
-    }],
+    // proxy: [{
+    //   context: ['/'],
+    //   target: 'https://localhost:3000/',
+    // }],
     clientLogLevel: 'warning',
     hot: true,
     contentBase: false,
